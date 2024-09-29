@@ -1,0 +1,85 @@
+.home{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.navbar{
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #4D44B5;
+}
+
+.navbar-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 30px;
+}
+
+.logo{
+    background-color: #FB7D5B;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    color: white;
+    font-size: clamp(2rem,1.5vh,1rem);
+}
+
+.navbar-title h1{
+    color: white;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+ul li{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.548);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    padding: 10px;
+    cursor: pointer;
+}
+
+.active{
+    color: #4D44B5;
+    background-color: white;
+    font-weight: 500;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 0.5s;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-foot-text-web{
+    font-size: 0.8em;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.nav-foot-text{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.548);
+    margin: 10px 0px 10px 20px;
+}
